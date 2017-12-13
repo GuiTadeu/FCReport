@@ -1,0 +1,36 @@
+Collecting WeasyPrint
+  Using cached WeasyPrint-0.41-py3-none-any.whl
+Collecting pdfrw>=0.4 (from WeasyPrint)
+  Using cached pdfrw-0.4-py2.py3-none-any.whl
+Collecting CairoSVG>=1.0.20 (from WeasyPrint)
+  Using cached CairoSVG-2.1.1-py3-none-any.whl
+Requirement already satisfied: html5lib>=0.999999999 in c:\users\aluno\appdata\local\programs\python\python36-32\lib\site-packages (from WeasyPrint)
+Collecting tinycss2>=0.5 (from WeasyPrint)
+  Using cached tinycss2-0.6.1-py2.py3-none-any.whl
+Collecting cffi>=0.6 (from WeasyPrint)
+  Using cached cffi-1.11.2-cp36-cp36m-win32.whl
+Collecting cairocffi>=0.5 (from WeasyPrint)
+  Using cached cairocffi-0.8.0.tar.gz
+Collecting cssselect2>=0.1 (from WeasyPrint)
+  Using cached cssselect2-0.2.1-py2.py3-none-any.whl
+Collecting Pyphen>=0.8 (from WeasyPrint)
+  Using cached Pyphen-0.9.4-py2.py3-none-any.whl
+Collecting defusedxml (from CairoSVG>=1.0.20->WeasyPrint)
+  Downloading defusedxml-0.5.0-py2.py3-none-any.whl
+Requirement already satisfied: pillow in c:\users\aluno\appdata\local\programs\python\python36-32\lib\site-packages (from CairoSVG>=1.0.20->WeasyPrint)
+Requirement already satisfied: six in c:\users\aluno\appdata\local\programs\python\python36-32\lib\site-packages (from html5lib>=0.999999999->WeasyPrint)
+Requirement already satisfied: setuptools>=18.5 in c:\users\aluno\appdata\local\programs\python\python36-32\lib\site-packages (from html5lib>=0.999999999->WeasyPrint)
+Requirement already satisfied: webencodings in c:\users\aluno\appdata\local\programs\python\python36-32\lib\site-packages (from html5lib>=0.999999999->WeasyPrint)
+Collecting pycparser (from cffi>=0.6->WeasyPrint)
+  Downloading pycparser-2.18.tar.gz (245kB)
+Requirement already satisfied: olefile in c:\users\aluno\appdata\local\programs\python\python36-32\lib\site-packages (from pillow->CairoSVG>=1.0.20->WeasyPrint)
+Building wheels for collected packages: cairocffi, pycparser
+  Running setup.py bdist_wheel for cairocffi: started
+  Running setup.py bdist_wheel for cairocffi: finished with status 'done'
+  Stored in directory: C:\Users\Aluno\AppData\Local\pip\Cache\wheels\ed\67\1b\c2e45826aef8e76b0942c2c1e62120da72259a5c1e46a3d02d
+  Running setup.py bdist_wheel for pycparser: started
+  Running setup.py bdist_wheel for pycparser: finished with status 'done'
+  Stored in directory: C:\Users\Aluno\AppData\Local\pip\Cache\wheels\95\14\9a\5e7b9024459d2a6600aaa64e0ba485325aff7a9ac7489db1b6
+Successfully built cairocffi pycparser
+Installing collected packages: pdfrw, defusedxml, pycparser, cffi, cairocffi, tinycss2, cssselect2, CairoSVG, Pyphen, WeasyPrint
+Successfully installed CairoSVG-2.1.1 Pyphen-0.9.4 WeasyPrint-0.41 cairocffi-0.8.0 cffi-1.11.2 cssselect2-0.2.1 defusedxml-0.5.0 pdfrw-0.4 pycparser-2.18 tinycss2-0.6.1
