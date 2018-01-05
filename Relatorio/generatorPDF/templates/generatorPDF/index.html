@@ -22,6 +22,37 @@
             <!-- Form Name -->
             <legend style="background-color: #000000;"><img src="{% static 'img/logo.png'%}"></legend>
 
+            <!-- Professor -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="textinput">Nome do Professor:</label>  
+              <div class="col-md-4">
+                <input name="link" type="text" placeholder="" class="form-control input-md">
+              </div>
+            </div>
+
+
+            <!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="selectbasic">Instituição</label>
+              <div class="col-md-4">
+                <select name="instituicao" class="form-control">
+                  <option></option>
+                  <option>Futura Code</option>
+                  <option>Aubrick Vieira</option>
+                  <option>Aubrick Jesuino</option>
+                  <option>Beit Yaacov</option>
+                  <option>PlayPen</option>
+                  <option>Palmares</option>
+                  <option>Nova Era</option>
+                  <option>Iavne</option>
+                  <option>Stance Dual</option>
+                  <option>BIS</option>
+                  <option>Nossa Senhora do Rosário</option>
+                  <option>Nossa Senhora das Dores</option>
+                </select>
+              </div>
+            </div>
+
             <!-- Select Basic -->
             <div class="form-group">
               <label class="col-md-4 control-label" for="selectbasic">Curso</label>
@@ -46,7 +77,15 @@
                   <option>4</option>
                   <option>5</option>
                 </select>
-                <span class="help-block" align="right" onclick="buscaCurso()" style="cursor: pointer;">Procurar Curso</span>  
+                <span class="help-block" align="right" onclick="buscaCurso()" style="cursor: pointer; float: right;">Procurar Curso</span>  
+              </div>
+            </div>
+
+            <!-- Textarea: Resumo da Aula -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="textarea">Resumo da Aula</label>
+              <div class="col-md-4">                     
+                <textarea class="form-control" name="resumo"></textarea>
               </div>
             </div>
 
@@ -58,13 +97,7 @@
               </div>
             </div>
 
-            <!-- Textarea: Resumo da Aula -->
-            <div class="form-group">
-              <label class="col-md-4 control-label" for="textarea">Resumo da Aula</label>
-              <div class="col-md-4">                     
-                <textarea class="form-control" name="resumo"></textarea>
-              </div>
-            </div>
+
 
             <!-- Text input: Link do Projeto-->
             <div class="form-group">
@@ -83,7 +116,15 @@
               </div>
             </div>
 
-            <button>Gerar Relatório</button>
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="textarea"></label>
+              <div class="col-md-4">                     
+                <button style="float: center; width: 600px; height: 50px;">Gerar Relatório</button>
+              </div>
+            </div>
+
+            
+            
 
             </fieldset>
         </form>
