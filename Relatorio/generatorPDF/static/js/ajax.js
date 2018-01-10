@@ -3,12 +3,23 @@ function buscaCurso() {
     let aula = document.querySelector('select[name=aula]').value;
 
     switch(curso) {
+
     case "apps":
         url = 'https://dl.dropboxusercontent.com/s/uoj0l5vw2xyyam6/apps.json';
         break;
+
+    case "arts3D":
+        url = 'https://dl.dropboxusercontent.com/s/m29o6482ywd5511/artes3d.json';
+        break;
+
+    case "redstone":
+        url = 'https://dl.dropboxusercontent.com/s/zzmdqw9k40eu0g1/redstone.json';
+        break;
+
     case "robotica":
         url = 'https://dl.dropboxusercontent.com/s/q129f4nh1xlanm7/robotica.json';
         break;
+
     default:
         url = "undefined";
 }

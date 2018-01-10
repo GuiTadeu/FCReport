@@ -24,6 +24,10 @@ class GeneratePDF(View):
 			curso = "Aplicativos"
 		elif curso == "robotica":
 			curso = "Robótica"
+		elif curso == "redstone":
+			curso = "Minecraft Redstone Master"
+		elif curso == "arts3D":
+			curso = "Minecraft Arts 3D"
 
 		context = {
 
@@ -62,6 +66,10 @@ def generate_view(request, *args, **kwargs):
 			curso = "Aplicativos"
 		elif curso == "robotica":
 			curso = "Robótica"
+		elif curso == "redstone":
+			curso = "Minecraft Redstone Master"
+		elif curso == "arts3D":
+			curso = "Minecraft Arts 3D"
 			
 		context = {
 
